@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+#Mizzu {
+    width: 500px;
+    height: auto;
+    padding: 20px 0;
+    background: #1e1e1e;
+    border: solid 1px rgba(130,130,130,.1);
+    box-shadow: 0px 0px 0.9px rgba(0, 0, 0, 0.045), 0px 0px 2.2px rgba(0, 0, 0, 0.058), 0px 0px 4.1px rgba(0, 0, 0, 0.066), 0px 0px 7.4px rgba(0, 0, 0, 0.074), 0px 0px 13.8px rgba(0, 0, 0, 0.085), 0px 0px 33px rgba(0, 0, 0, 0.12);
+
+}
+
+#Mizzu .Final{
+  width: 400px;
+  bottom: 0px;
+  display: flex;
+  position: relative;
+  float: left;
+  }
+
+.Imgbox {
+    width: 420px;
+    height: 180px;
+    background-image: url(https://i.imgur.com/INt4ycH.gif);
+    background-size: auto;
+    border: solid 1px #282828;
+    box-shadow: 0px 0px 0.9px rgba(0, 0, 0, 0.045), 0px 0px 2.2px rgba(0, 0, 0, 0.058), 0px 0px 4.1px rgba(0, 0, 0, 0.066), 0px 0px 7.4px rgba(0, 0, 0, 0.074), 0px 0px 13.8px rgba(0, 0, 0, 0.085), 0px 0px 33px rgba(0, 0, 0, 0.12);
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: justify;
+    color: #757575;
+}
+
+.Titulobox {
+    width: 450px;
+    font-size: 60px;
+    padding: 10px;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #302f57 0%, #0a42e9 90%);
+    margin: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: -6px;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.Tituloboxx {
+    width: 450px;
+    font-size: 30px;
+    background-color: #000000;
+    background-image: linear-gradient(0deg, #302f57 0%, #0a42e9 90%);
+    margin: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 45px;
+    letter-spacing: -2px;
+    -webkit-background-clip: text;
+    color: transparent;
+    left: -90px;
+}
+
+.Subbox {
+    width: 450px;
+    padding: 0 10px;
+    color: #8b8b8b;
+    margin: -18px;
+    font-size: 11px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.Textbox {
+    color: #757575;
+    width: 420px;
+    background-color: rgba(35,35,35,.4);
+    border: solid 1px rgba(130,130,130,.1);
+    box-shadow: 0px 0px 0.9px rgba(0, 0, 0, 0.045), 0px 0px 2.2px rgba(0, 0, 0, 0.058), 0px 0px 4.1px rgba(0, 0, 0, 0.066), 0px 0px 7.4px rgba(0, 0, 0, 0.074), 0px 0px 13.8px rgba(0, 0, 0, 0.085), 0px 0px 33px rgba(0, 0, 0, 0.12);
+    height: auto;
+    margin: 30px 0 -10px 0;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+fala {
+  font-weight: bold;
+  color: #0a42e9;
+  text-shadow: black;
+}
+
+pensa {
+    font-style: italic;
+    color: #0a42e9;
+    text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+  }
+
+.mainContainer {
+    width: 450px;
+    height: 50px;
+    background-color: none;
+    color: white;
+    padding: 25px;
+    margin-top: 10px;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  
+  .mainContainer .hr {
+    width: 410px;
+    height: 2px;
+    background-color: #0a42e9;
+    position: absolute;
+    -webkit-transform: translate(45px, 90px);
+            transform: translate(45px, 90px);
+  }
+  
+  .containercheck input:checked + .mainContainer {
+    height: 470px;
+  }
+  
+  .containercheck input:checked + .mainContainer .hcontainer {
+    opacity: 100;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+  }
+  
+  .hBanner {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: none;
+    color: white;
+  }
+  
+  .hBanner div {
+    height: 92px;
+    width: 300px;
+    background-color: none;
+    position: absolute;
+    margin: 2px;
+    -webkit-transform: scale(150%) translateX(125px) translateY(15px);
+            transform: scale(150%) translateX(125px) translateY(15px);
+    overflow: visible;
+    white-space: nowrap;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  
+  .hBanner span {
+    font-family: League Gothic;
+    color: white;
+    letter-spacing: 7px;
+    font-size: 30px;
+    white-space: nowrap;
+    top: 35px;
+    left: 15px;
+  }
+  
+  .hBanner p {
+    top: 5px;
+    left: 15px;
+    font-size: 25px;
+    opacity: 85%;
+  }
+  
+  .hInfo1 {
+    display: none;
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    position: absolute;
+    top: 105px;
+    left: 45px;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .hInfo1::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .hInfo1::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 10px;
+  }
+  
+  .hInfo1::-webkit-scrollbar-thumb {
+    background: #0a42e9;
+    border-radius: 10px;
+  }
+  
+  .hInfo1 span {
+    position: relative;
+    left: -20px;
+    font-size: 18px;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    color: #0a42e9;
+    line-height: normal;
+  }
+  
+  .hInfo1 summary {
+    color: #0a42e9;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .hInfo1 details {
+    font-size: 12px;
+    line-height: normal;
+  }
+  
+  .hcontainer {
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    pointer-events: none;
+  }
+  
+  .hcontainer input:checked ~ .hInfo1 {
+    display: block;
+    pointer-events: initial;
+  }
+  
+  .hcontainer input:checked ~ .hIcon {
+    -webkit-filter: invert(14%) sepia(78%) saturate(5844%) hue-rotate(231deg) brightness(93%) contrast(98%);
+            filter: invert(14%) sepia(78%) saturate(5844%) hue-rotate(231deg) brightness(93%) contrast(98%);
+  }
+  
+  .hIcon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    pointer-events: initial;
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+  }
+  
+  .mainContainer input, .containercheck input{
+    display: none;
+  }
+  /*# sourceMappingURL=style.css.map 
+  
+  Feita por Remenuf e editada por Mizzu*/
