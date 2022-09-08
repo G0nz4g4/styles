@@ -96,7 +96,7 @@
 fala {
   font-weight: bold;
   color: #0a42e9;
-  text-shadow: black;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
 pensa {
