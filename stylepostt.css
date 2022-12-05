@@ -29,7 +29,7 @@
   height: 80px;
   background: var(--bg-color);
   clip-path: polygon(65% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
-  margin-top: -30px;
+  margin-top: -78px;
 }
 
 #pirata .efeitodois {
@@ -37,7 +37,7 @@
   background: var(--bg-color);
   clip-path: polygon(67% 0, 100% 55%, 100% 100%, 0 100%, 0 38%);
   margin-top: -93px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 #pirata .pp {
   width: 70px;
@@ -45,16 +45,16 @@
   object-fit: cover;
   border-radius: 100%;
   border: 12px solid var(--bg-color);
-  position: absolute;
+  position: relative;
   z-index: 1;
-  left: 120px;
-  margin-top: -40px;
+  left: -100px;
+  margin-top: -45px;
 }
 
 #pirata .posicao {
-  position: absolute;
+  position: relative;
   z-index: 1;
-  left: calc(170px + 70px);
+  left: 30px;
   margin-top: -30px;
 }
 
@@ -72,7 +72,7 @@
   height: 8px;
   border-radius: 100%;
   background: var(--colorp);
-  left: 110px;
+  left: 65px;
 }
 
 #pirata .posicao .boladois {
@@ -81,7 +81,7 @@
   height: 8px;
   border-radius: 100%;
   background: var(--colorp);
-  left: 124px;
+  left: 335px;
   opacity: 0.5;
   margin-top: -8px;
 }
