@@ -22,7 +22,7 @@
   letter-spacing: -4px;
   text-transform: uppercase;
   text-align: center;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 #pirata .efeito {
