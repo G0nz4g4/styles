@@ -102,6 +102,7 @@ falaimg {
   line-height: 50px;
   background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
   background-size: cover;
+  background-position: center;
   border-radius: 100%;
   margin: 0px 10px 0px 10px;
 }
