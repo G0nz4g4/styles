@@ -6,10 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 #pirata {
-  --colorp: #DAA520;
-  --bg-color: #1e1e1e;
+  --colorp: var(--mizzu);
+  --bg-color: #0f0f0f;
   --text-color: #dadada;
-  --efect: invert(88%) sepia(12%) saturate(7335%) hue-rotate(345deg) brightness(90%) contrast(88%);
+  --efect: var(--mizzuefect);
+  --mizzu: #970623;
+  --mizzuefect: invert(13%) sepia(50%) saturate(7013%) hue-rotate(339deg) brightness(74%) contrast(103%);
   width: 520px;
   padding: 5px 0px;
   background-color: var(--bg-color);
@@ -115,6 +117,15 @@ fala {
   align-items: center;
   color: var(--colorp);
   text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+espada {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #808080;
 }
 
 pensa {
