@@ -6,12 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 #pirata {
-  --colorp: var(--mizzu);
+  --colorp: #970623;
   --bg-color: #0f0f0f;
   --text-color: #dadada;
-  --efect: var(--mizzuefect);
-  --mizzu: #970623;
-  --mizzuefect: invert(13%) sepia(50%) saturate(7013%) hue-rotate(339deg) brightness(74%) contrast(103%);
+  --efect: invert(13%) sepia(50%) saturate(7013%) hue-rotate(339deg) brightness(74%) contrast(103%);
   width: 520px;
   padding: 5px 0px;
   background-color: var(--bg-color);
@@ -99,6 +97,18 @@
 
 falaimg {
   float: left;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 0px 10px 0px 10px;
+}
+
+espadaimg {
+  float: right;
   width: 70px;
   height: 70px;
   line-height: 50px;
