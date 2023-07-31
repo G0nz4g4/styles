@@ -133,7 +133,7 @@ espada {
   min-height: 70px;
   margin: 0px 15px 0px 15px;
   display: flex;
-  justify-content: left;
+  justify-content: right;
   align-items: center;
   color: #808080;
 }
