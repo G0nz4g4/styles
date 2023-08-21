@@ -1,3 +1,12 @@
+.titulo {
+  color: #97E21E; 
+  font: 900 35px/100% 'Raleway'; 
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  word-break: break-word;
+}
+
 .mainContainer {
   width: 450px;
   height: 50px;
