@@ -1,144 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-
-#narrador {
-    width: 600px;
-    min-height: 500px;
-    background-color: none;
-    position: relative;
-    padding: 10px;
-}
-
-
-#narrador .iinicio {
-    width: 600px;
-    height: 160px;
-    background-color: none;
-    position: relative;
-    padding: 0%;
-    display: block;
-}
-
-#narrador .infoum{
-  width: 99px;
-  height: 80px;
+.mainContainer {
+  width: 450px;
+  height: 50px;
   background-color: none;
   color: white;
-  font-family: League Gothic;
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: inline-block;
-  top: 40px;
-  float: left;
+  padding: 25px;
+  margin-top: 10px;
   position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
-#narrador .bg {
-    width: 400px;
-    height: 160px;
-    background-image: url(https://i.imgur.com/VuaC79V.png);
-    background-size: cover; 
-    background-position: center center;
-    display: inline-block;
-    border: 1px solid white;
+.mainContainer .hr {
+  width: 410px;
+  height: 2px;
+  background-color: #97E21E;
+  position: absolute;
+  -webkit-transform: translate(45px, 90px);
+          transform: translate(45px, 90px);
 }
 
-#narrador .infodois{
-    width: 99px;
-    height: 80px;
-    background-color: none;
-    color: white;
-    font-family: League Gothic;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    display: inline-block;
-    top: 5px;
-    float: right;
-    position: relative;
+.containercheck input:checked + .mainContainer {
+  height: 470px;
 }
 
-#narrador .infodois .sol{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/754m4Mc.png);
+.containercheck input:checked + .mainContainer .hcontainer {
+  opacity: 100;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
-#narrador .infodois .chuva{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/ZLcp2tG.png);
-}
-
-#narrador .infodois .garoa{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/hwipWAx.png);
-}
-
-#narrador .infodois .noite{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/OkRUP8Z.png);
-}
-
-#narrador .infodois .luacheia{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/Vrm6sne.png);
-}
-
-#narrador .infodois .chuvaforte{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/aK4hY4Z.png);
-}
-
-#narrador .infodois .frio{
-    width: 80px;
-    height: 80px;
-    background-image: url(https://i.imgur.com/I9SJHnf.png);
-}
-
-#narrador .legendas{
-    width: 600px;
-    height: 90px;
-    background-color: none;
-    display: block;
-    margin-top: 10px;
-    color: white;
-    font-family: League Gothic;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-titulo {
-    font-size: 40px;
-}
-
-subtitulo {
-    font-size: 17px;
-    top: -8px;
-    position: relative;
-}
-
-#narrador .tex{
+.hBanner {
   width: 500px;
-  min-height: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  overflow: hidden;
+  cursor: pointer;
   background-color: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  font-family: Helvetica;
-  text-align: justify;
   color: white;
-  font-size: 14px;
 }
 
-#narrador .desc{
-  width: 500px;
-  min-height: 100px;
+.hBanner div {
+  height: 92px;
+  width: 300px;
   background-color: none;
+  position: absolute;
+  margin: 2px;
+  -webkit-transform: scale(150%) translateX(125px) translateY(15px);
+          transform: scale(150%) translateX(125px) translateY(15px);
+  overflow: visible;
+  white-space: nowrap;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
+
+.hBanner span {
+  font-family: League Gothic;
+  color: white;
+  letter-spacing: 7px;
+  font-size: 30px;
+  white-space: nowrap;
+  top: 35px;
+  left: 15px;
+}
+
+.hBanner p {
+  top: 5px;
+  left: 15px;
+  font-size: 25px;
+  opacity: 85%;
+}
+
+.hInfo1 {
+  display: none;
+  width: 370px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 300px;
+  position: absolute;
+  top: 105px;
+  left: 45px;
+  overflow-y: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.hInfo1::-webkit-scrollbar {
+  width: 2px;
+}
+
+.hInfo1::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+
+.hInfo1::-webkit-scrollbar-thumb {
+  background: #97E21E;
+  border-radius: 10px;
+}
+
+.hInfo1 span {
+  position: relative;
+  left: -20px;
+  font-size: 18px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  color: var(--colorp);
+  line-height: normal;
+}
+
+.hInfo1 summary {
+  color: #97E21E;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hInfo1 details {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.hcontainer {
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.hcontainer input:checked ~ .hInfo1 {
+  display: block;
+  pointer-events: initial;
+}
+
+.hcontainer input:checked ~ .hIcon {
+  -webkit-filter: invert(99%) sepia(45%) saturate(5842%) hue-rotate(22deg) brightness(97%) contrast(82%);
+          filter: invert(99%) sepia(45%) saturate(5842%) hue-rotate(22deg) brightness(97%) contrast(82%);
+}
+
+.hIcon {
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+  pointer-events: initial;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.mainContainer input, .containercheck input{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map 
