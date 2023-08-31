@@ -253,6 +253,7 @@ pensa {
 .hInfo1::-webkit-scrollbar-thumb {
   background: var(--colorp);
   border-radius: 10px;
+  border-color: var(--colorp);
 }
 
 .hInfo1 span {
