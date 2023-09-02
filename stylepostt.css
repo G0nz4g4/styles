@@ -305,4 +305,46 @@ pensa {
 .mainContainer input, .containercheck input{
   display: none;
 }
+
+input[id^="spoiler"]{
+ display: none;
+}
+input[id^="spoiler"] + label {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);      background-image:url('https://i.imgur.com/NncBDaC.png'); 
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+input[id^="spoiler"]:checked + label {
+  color: #333;
+  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);      background-image:url('https://i.imgur.com/NncBDaC.png'); 
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 500px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 10px; 
+  background: none;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=style.css.map 
