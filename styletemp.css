@@ -3,7 +3,7 @@
   cursor: pointer;
   display: none;
 }
-texr:hover + div {
+texr:hover + .runa {
   display: block;
 }
 .imgr {
