@@ -306,44 +306,18 @@ pensa {
   display: none;
 }
 
-input[id^="runa"]{
- display: none;
+runa {
+  justify-content: center;
+  align-items: center;
+  color: var(--colorp);
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+  display: none;
 }
-input[id^="runa"] + label {
-  display: block;
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
-  padding: 5px 20px;
-  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);      background-image:url('https://i.imgur.com/NncBDaC.png'); 
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-  text-align: center;
-  font-size: 24px;
+.imgr {
+  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);
   cursor: pointer;
 }
-input[id^="runa"]:checked + label {
-  color: #333;
-  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);      background-image:url('https://i.imgur.com/NncBDaC.png'); 
-  background-size: 70px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-input[id^="runa"] ~ .runa {
-  width: 500px;
-  height: 0;
-  overflow: hidden;
-  opacity: 0;
-  margin: 10px auto 0; 
-  padding: 10px; 
-  background: none;
-  transition: all .6s;
-}
-input[id^="runa"]:checked + label + .runa{
-  height: auto;
-  opacity: 1;
-  padding: 10px;
+.imgr:hover + runa {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map 
