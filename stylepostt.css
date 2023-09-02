@@ -306,10 +306,10 @@ pensa {
   display: none;
 }
 
-input[id^="spoiler"]{
+input[id^="runa"]{
  display: none;
 }
-input[id^="spoiler"] + label {
+input[id^="runa"] + label {
   display: block;
   width: 200px;
   height: 50px;
@@ -324,14 +324,14 @@ input[id^="spoiler"] + label {
   font-size: 24px;
   cursor: pointer;
 }
-input[id^="spoiler"]:checked + label {
+input[id^="runa"]:checked + label {
   color: #333;
   -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);      background-image:url('https://i.imgur.com/NncBDaC.png'); 
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
 }
-input[id^="spoiler"] ~ .spoiler {
+input[id^="runa"] ~ .runa {
   width: 500px;
   height: 0;
   overflow: hidden;
@@ -341,10 +341,9 @@ input[id^="spoiler"] ~ .spoiler {
   background: none;
   transition: all .6s;
 }
-input[id^="spoiler"]:checked + label + .spoiler{
+input[id^="runa"]:checked + label + .runa{
   height: auto;
   opacity: 1;
   padding: 10px;
 }
-
 /*# sourceMappingURL=style.css.map 
