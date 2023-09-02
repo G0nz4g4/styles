@@ -306,7 +306,7 @@ pensa {
   display: none;
 }
 
-runa {
+.runa {
   justify-content: center;
   align-items: center;
   color: var(--colorp);
@@ -317,6 +317,10 @@ runa {
   -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);
   cursor: pointer;
 }
+.imgr:hover + .runa {
+  display: block;
+}
+
 .imgr:hover + runa {
   display: block;
 }
