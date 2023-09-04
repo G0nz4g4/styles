@@ -318,8 +318,8 @@ moreno {
   margin-bottom: 5px;
   cursor: pointer;
   pointer-events: initial;
-  -webkit-filter: brightness(0) invert(0);
-          filter: brightness(0) invert(0);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .mainContainer input, .containercheck input{
