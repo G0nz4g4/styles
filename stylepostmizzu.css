@@ -22,7 +22,7 @@
 
 #pirata .titulo {
   color: var(--colorp);
-  font: 900 70px/100% 'Raleway'
+  font: 900 70px/100% 'Raleway';
   letter-spacing: -4px;
   text-transform: uppercase;
   text-align: center;
