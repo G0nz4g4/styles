@@ -1,55 +1,308 @@
-.primeiro {
-    width: 250px;
-    height: 150px;
-    background-image: url(https://i.imgur.com/hRJuk7p.gif);
-    background-position: center;
-    background-size: cover;
-    margin-left: 140px;
-    border-top: 2px solid #ea7611;
-    border-radius: 0px 5px 0px 0px;
-    display: inline-flex;
+ /* Template feito pela Ross (https://rossresources.tumblr.com/)
+ Historico feito por Remenuf
+ Adaptado por Mizzu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+#pirata {
+  --colorp: #FFD700;
+  --bg-color: none;
+  --text-color: #525252;
+  --efect: invert(86%) sepia(8%) saturate(7050%) hue-rotate(359deg) brightness(103%) contrast(103%);
+  width: 520px;
+  padding: 5px 0px;
+  background-color: var(--bg-color);
+  border-radius: 15px;
 }
 
-.segundo {
-    width: 150px;
-    height: 150px;
-    background-image: url(https://i.imgur.com/fHUoGEL.gif);
-    background-position: center;
-    background-size: cover;
-    margin-left: -400px;
-    border-top: 2px solid #ea7611;
-    border-radius: 5px 0px 0px 0px;
-    display: inline-flex;
+#pirata .titulo {
+  color: var(--colorp);
+  font: 900 70px/100% 'Raleway';
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  text-align: center;
+  word-break: break-word;
 }
 
-.terceiro {
-    width: 10px;
-    height: 154px;
-    background-color: none;
-    margin-left: -30px;
-    display: inline-flex;
+#pirata .efeito {
+  height: 80px;
+  background: var(--bg-color);
+  clip-path: polygon(65% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
+  margin-top: -78px;
 }
 
-.texto {
-    font-family: 'andayani';
-    font-size: 60px;
-    margin-top: -40px;
-    color: #6c1e30;
-    text-shadow: -1px -1px white, 1px 1px #ea7611
+#pirata .efeitodois {
+  height: 80px;
+  background: var(--bg-color);
+  clip-path: polygon(67% 0, 100% 55%, 100% 100%, 0 100%, 0 38%);
+  margin-top: -93px;
+  opacity: 0.8;
+}
+#pirata .pp {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 12px solid var(--bg-color);
+  position: relative;
+  z-index: 1;
+  left: -100px;
+  margin-top: -45px;
 }
 
-.frase {
-    width: 395px;
-    height: 20px;
-    text-transform: uppercase;
-    font: 12px Arial;
-    text-align: center;
-    margin-top: -10px;
-    margin-left: -5px;
-    color: #404040;
+#pirata .posicao {
+  position: relative;
+  z-index: 1;
+  left: 30px;
+  margin-top: -30px;
 }
 
-@font-face {
-    font-family: "andayani";
-    src: url(https://dl.dropbox.com/s/pzi9agwz4rbu88i/andayani.ttf);
+#pirata .posicao .linha {
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  background: var(--colorp);
+  display: inline-block;
 }
+
+#pirata .posicao .bola {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: var(--colorp);
+  left: 65px;
+}
+
+#pirata .posicao .boladois {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: var(--colorp);
+  left: 335px;
+  opacity: 0.5;
+  margin-top: -8px;
+}
+
+#pirata .texto {
+  margin: 20px 40px 0px;
+  color: #525252;
+  text-align: justify;
+  font: 12px/150% 'Be Vietnam Pro', sans-serif;
+  letter-spacing: .5px;
+  word-break: break-word;
+}
+
+falaimg {
+  float: left;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 0px 10px 0px 10px;
+}
+
+npcimg {
+  float: right;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 0px 10px 0px 10px;
+}
+
+fala {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #525252;
+  text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
+}
+
+npc {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: #808080;
+}
+
+pensa {
+  font-style: italic;
+  color: #525252;
+  text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
+
+.mainContainer {
+  width: 450px;
+  height: 50px;
+  background-color: none;
+  color: white;
+  padding: 25px;
+  margin-top: 10px;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.mainContainer .hr {
+  width: 410px;
+  height: 2px;
+  background-color: var(--colorp);
+  position: absolute;
+  -webkit-transform: translate(45px, 90px);
+          transform: translate(45px, 90px);
+}
+
+.containercheck input:checked + .mainContainer {
+  height: 470px;
+}
+
+.containercheck input:checked + .mainContainer .hcontainer {
+  opacity: 100;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.hBanner {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: none;
+  color: white;
+}
+
+.hBanner div {
+  height: 92px;
+  width: 300px;
+  background-color: none;
+  position: absolute;
+  margin: 2px;
+  -webkit-transform: scale(150%) translateX(125px) translateY(15px);
+          transform: scale(150%) translateX(125px) translateY(15px);
+  overflow: visible;
+  white-space: nowrap;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.hBanner span {
+  font-family: League Gothic;
+  color: white;
+  letter-spacing: 7px;
+  font-size: 30px;
+  white-space: nowrap;
+  top: 35px;
+  left: 15px;
+}
+
+.hBanner p {
+  top: 5px;
+  left: 15px;
+  font-size: 25px;
+  opacity: 85%;
+}
+
+.hInfo1 {
+  display: none;
+  width: 370px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 300px;
+  position: absolute;
+  top: 105px;
+  left: 45px;
+  overflow-y: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.hInfo1::-webkit-scrollbar {
+  width: 2px;
+}
+
+.hInfo1::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+
+.hInfo1::-webkit-scrollbar-thumb {
+  background: var(--colorp);
+  border-radius: 10px;
+  border-color: var(--colorp);
+}
+
+.hInfo1 span {
+  position: relative;
+  left: -20px;
+  font-size: 18px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  color: var(--colorp);
+  line-height: normal;
+}
+
+.hInfo1 summary {
+  color: var(--colorp);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.hInfo1 details {
+  font-size: 12px;
+  line-height: normal;
+}
+
+.hcontainer {
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.hcontainer input:checked ~ .hInfo1 {
+  display: block;
+  pointer-events: initial;
+}
+
+.hcontainer input:checked ~ .hIcon {
+  -webkit-filter: var(--efect);
+          filter: var(--efect);
+}
+
+.hIcon {
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+  cursor: pointer;
+  pointer-events: initial;
+  -webkit-filter: brightness(0) invert(0);
+          filter: brightness(0) invert(0);
+}
+
+.mainContainer input, .containercheck input{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map 
