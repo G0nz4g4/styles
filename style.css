@@ -136,7 +136,7 @@ npc {
   display: flex;
   justify-content: right;
   align-items: center;
-  color: #808080;
+  color: var(--text-color);
 }
 
 pensa {
