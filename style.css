@@ -88,7 +88,7 @@
 
 #pirata .texto {
   margin: 20px 40px 0px;
-  color: #525252;
+  color: var(--text-color);
   text-align: justify;
   font: 12px/150% 'Be Vietnam Pro', sans-serif;
   letter-spacing: .5px;
@@ -125,7 +125,8 @@ fala {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: #525252;
+  color: var(--colorp);
+  font-weight: bold; 
   text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
 }
 
@@ -140,8 +141,9 @@ npc {
 
 pensa {
   font-style: italic;
-  color: #525252;
+  color: var(--colorp);
   text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
+}
 
 .mainContainer {
   width: 450px;
