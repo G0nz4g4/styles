@@ -6,10 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 #pirata {
-  --colorp: #FFD700;
-  --bg-color: none;
-  --text-color: #525252;
-  --efect: invert(86%) sepia(8%) saturate(7050%) hue-rotate(359deg) brightness(103%) contrast(103%);
+  --colorp: #00CED1;
+  --bg-color: #0f0f0f;
+  --text-color: #dadada;
+  --efect: invert(66%) sepia(99%) saturate(954%) hue-rotate(126deg) brightness(87%) contrast(101%);
   width: 520px;
   padding: 5px 0px;
   background-color: var(--bg-color);
@@ -127,7 +127,7 @@ fala {
   align-items: center;
   color: var(--colorp);
   font-weight: bold; 
-  text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
 npc {
@@ -142,7 +142,25 @@ npc {
 pensa {
   font-style: italic;
   color: var(--colorp);
-  text-shadow: 0 0 0.2em #FFD700, 0 0 0.2em #FFD700;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+blonde {
+  font-style: italic;
+  color: #FFD700;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+ruivo {
+  font-style: italic;
+  color: #DC143C;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+}
+
+moreno {
+  font-style: italic;
+  color:	#A0522D;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
 .mainContainer {
@@ -300,8 +318,8 @@ pensa {
   margin-bottom: 5px;
   cursor: pointer;
   pointer-events: initial;
-  -webkit-filter: brightness(0) invert(0);
-          filter: brightness(0) invert(0);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .mainContainer input, .containercheck input{
