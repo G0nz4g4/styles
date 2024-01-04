@@ -136,6 +136,7 @@ npc {
   display: flex;
   justify-content: right;
   align-items: center;
+  font-weight: bold; 
   color: var(--text-color);
 }
 
