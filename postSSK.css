@@ -125,9 +125,10 @@ fala {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: #000;
+  color: var(--colorp);
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
   font-weight: bold; 
-  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+  
 }
 
 npc {
@@ -142,8 +143,8 @@ npc {
 
 pensa {
   font-style: italic;
-  color: #000;
-  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+  color: var(--colorp);
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 }
 
 .mainContainer {
