@@ -125,7 +125,7 @@ fala {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: black;
+  color: #000;
   font-weight: bold; 
   text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
@@ -142,7 +142,7 @@ npc {
 
 pensa {
   font-style: italic;
-  color: black;
+  color: #000;
   text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
 
