@@ -102,7 +102,6 @@ falaAle {
   justify-content: left;
   align-items: center;
   color: var(--colorp);
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
   font-weight: bold; 
   
 }
@@ -110,5 +109,4 @@ falaAle {
 pensaAle {
   font-style: italic;
   color: var(--colorp);
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
 }
