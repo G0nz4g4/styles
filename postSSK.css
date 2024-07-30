@@ -6,17 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 #pirata {
-  --colorp: #00CED1;
-  --bg-color: #0f0f0f;
-  --text-color: #dadada;
-  --efect: invert(66%) sepia(99%) saturate(954%) hue-rotate(126deg) brightness(87%) contrast(101%);
+  --colorp: #f02222;
+  --bg-color: none;
+  --text-color: #525252;
+  --efect: invert(21%) sepia(96%) saturate(3865%) hue-rotate(353deg) brightness(102%) contrast(88%);
   width: 520px;
   padding: 5px 0px;
   background-color: var(--bg-color);
-  background-image: url('https://i.imgur.com/gE7K5pc.png');
-  background-size: 150px;
-  background-position: right bottom;
-  background-repeat: no-repeat;
   border-radius: 15px;
 }
 
@@ -116,7 +112,7 @@ npcimg {
   width: 70px;
   height: 70px;
   line-height: 50px;
-  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-image: url('https://i.imgur.com/S9yCFq7.png');
   background-size: cover;
   background-position: center;
   border-radius: 100%;
@@ -129,9 +125,9 @@ fala {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: var(--colorp);
+  color: #000;
   font-weight: bold; 
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
 
 npc {
@@ -140,31 +136,14 @@ npc {
   display: flex;
   justify-content: right;
   align-items: center;
-  color: #808080;
+  font-weight: bold; 
+  color: var(--text-color);
 }
 
 pensa {
   font-style: italic;
-  color: var(--colorp);
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
-}
-
-blonde {
-  font-style: italic;
-  color: #FFD700;
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
-}
-
-ruivo {
-  font-style: italic;
-  color: #DC143C;
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
-}
-
-moreno {
-  font-style: italic;
-  color:	#A0522D;
-  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+  color: #000;
+  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
 
 .mainContainer {
@@ -322,8 +301,8 @@ moreno {
   margin-bottom: 5px;
   cursor: pointer;
   pointer-events: initial;
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(0);
+          filter: brightness(0) invert(0);
 }
 
 .mainContainer input, .containercheck input{
