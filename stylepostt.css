@@ -96,11 +96,6 @@
 }
 
 falaBlaze {
-  min-height: 70px;
-  margin: 0px 15px 0px 15px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
   color: var(--colorp);
   font-weight: bold; 
   
