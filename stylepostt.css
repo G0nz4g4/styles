@@ -104,4 +104,5 @@ falaBlaze {
 pensaBlaze {
   font-style: italic;
   color: var(--colorp);
+ font-weight: bold;
 }
