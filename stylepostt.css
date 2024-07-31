@@ -127,3 +127,25 @@ falaimgblaze {
   border-radius: 100%;
   margin: 0px 10px 0px 10px;
 }
+
+falaimgmatt {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #292929;
+  font-weight: bold; 
+  
+}
+falaimgmatt {
+  float: left;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 0px 10px 0px 10px;
+}
