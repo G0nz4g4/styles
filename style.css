@@ -252,8 +252,7 @@ pensa {
   
   .hBanner span {
     font-family: League Gothic;
-    color: #000;
-    text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+    color: white;
     letter-spacing: 7px;
     font-size: 30px;
     white-space: nowrap;
