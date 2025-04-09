@@ -1,12 +1,353 @@
-.runa {
+ /* Template feito pela Ross (https://rossresources.tumblr.com/)
+ Historico feito por Remenuf
+ Adaptado por Mizzu*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+#pirata {
+  --colorp: #f02222;
+  --bg-color: none;
+  --text-color: #525252;
+  --filtrogeral: invert(19%) sepia(70%) saturate(3650%) hue-rotate(349deg) brightness(100%) contrast(99%);
+  width: 520px;
+  padding: 5px 0px;
+  background-color: var(--bg-color);
+  border-radius: 15px;
+}
+
+#pirata .tituloMizzu {
+  color: #000; 
+  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+  font: 900 70px/100% 'Raleway';
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  text-align: center;
+  word-break: break-word;
+}
+
+#pirata .titulo {
+  color: var(--colorp); 
+  font: 900 70px/100% 'Raleway';
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  text-align: center;
+  word-break: break-word;
+}
+
+#pirata .efeito {
+  height: 80px;
+  background: var(--bg-color);
+  clip-path: polygon(65% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
+  margin-top: -78px;
+}
+
+#pirata .efeitodois {
+  height: 80px;
+  background: var(--bg-color);
+  clip-path: polygon(67% 0, 100% 55%, 100% 100%, 0 100%, 0 38%);
+  margin-top: -93px;
+  opacity: 0.8;
+}
+#pirata .ppMizzu {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 12px solid var(--bg-color);
+  position: relative;
+  z-index: 1;
+  left: -100px;
+  margin-top: -45px;
+  box-shadow: 0 0 0.4em #f02222, 0 0 0.4em #f02222;
+}
+
+#pirata .pp {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 12px solid var(--bg-color);
+  position: relative;
+  z-index: 1;
+  left: -100px;
+  margin-top: -45px;
+}
+
+#pirata .posicao {
+  position: relative;
+  z-index: 1;
+  left: 30px;
+  margin-top: -30px;
+}
+
+#pirata .posicao .linhaMizzu {
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  background: #000; 
+  box-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+}
+
+#pirata .posicao .linha {
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  display: inline-block;
+  background: var(--colorp);
+}
+
+#pirata .posicao .bolaMizzu {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #000; 
+  box-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
+  left: 65px;
+}
+
+#pirata .posicao .bola {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: var(--colorp); 
+  left: 65px;
+}
+
+
+#pirata .posicao .boladois {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: var(--colorp);
+  left: 335px;
+  opacity: 0.5;
+  margin-top: -8px;
+}
+
+#pirata .texto {
+  margin: 20px 40px 0px;
+  color: var(--text-color);
+  text-align: justify;
+  font: 12px/150% 'Be Vietnam Pro', sans-serif;
+  letter-spacing: .5px;
+  word-break: break-word;
+}
+
+falaimg {
+  float: left;
+  width: 70px;
+  height: 70px;
+  line-height: 50px;
+  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 0px 10px 0px 10px;
+}
+
+falaMizzu {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   color: #000;
-  cursor: pointer;
-  display: none;
+  font-weight: bold; 
+  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
-.imgr {
-  -webkit-filter: invert(68%) sepia(18%) saturate(5046%) hue-rotate(176deg) brightness(101%) contrast(88%);
-  cursor: pointer;
+
+pensaMizzu {
+  font-style: italic;
+  color: #000;
+  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
 }
-.imgr:hover + br + .runa {
-  display: block;
+
+fala {
+  min-height: 70px;
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: var(--colorp);
+  font-weight: bold; 
 }
+
+pensa {
+  font-style: italic;
+  color: var(--colorp);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+.mainContainer {
+    width: 450px;
+    height: 50px;
+    background-color: none;
+    color: white;
+    padding: 25px;
+    margin-top: 10px;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  
+  .mainContainer .hr {
+    width: 410px;
+    height: 2px;
+    background-color: var(--colorp);
+    position: absolute;
+    -webkit-transform: translate(45px, 90px);
+            transform: translate(45px, 90px);
+  }
+  
+  .containercheck input:checked + .mainContainer {
+    height: 470px;
+  }
+  
+  .containercheck input:checked + .mainContainer .hcontainer {
+    opacity: 100;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+  }
+  
+  .hBanner {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    bottom: -2px;
+    left: -2px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: none;
+    color: white;
+  }
+  
+  .hBanner div {
+    height: 92px;
+    width: 92px;
+    background-color: none;
+    position: absolute;
+    -webkit-clip-path: circle();
+            clip-path: circle();
+    margin: 2px;
+    -webkit-transform: scale(150%) translateX(125px) translateY(15px);
+            transform: scale(150%) translateX(125px) translateY(15px);
+    overflow: visible;
+    white-space: nowrap;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+  
+  .hBanner span {
+    font-family: League Gothic;
+    color: white;
+    letter-spacing: 7px;
+    font-size: 30px;
+    white-space: nowrap;
+    top: 35px;
+    left: 15px;
+  }
+  
+  .hBanner p {
+    top: 5px;
+    left: 15px;
+    font-size: 25px;
+    opacity: 85%;
+  }
+  
+  .hInfo1 {
+    display: none;
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    position: absolute;
+    top: 105px;
+    left: 45px;
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  
+  .hInfo1::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  .hInfo1::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 10px;
+  }
+  
+  .hInfo1::-webkit-scrollbar-thumb {
+    background: var(--colorp);
+    border-radius: 10px;
+  }
+  
+  .hInfo1 span {
+    position: relative;
+    left: -20px;
+    font-size: 18px;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    color: var(--colorp);
+    line-height: normal;
+  }
+  
+  .hInfo1 summary {
+    color: var(--colorp);
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .hInfo1 details {
+    font-size: 12px;
+    line-height: normal;
+  }
+  
+  .hcontainer {
+    opacity: 0;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    pointer-events: none;
+  }
+  
+  .hcontainer input:checked ~ .hInfo1 {
+    display: block;
+    pointer-events: initial;
+  }
+  
+  .hcontainer input:checked ~ .hIcon {
+    -webkit-filter: var(--filtrogeral);
+            filter: var(--filtrogeral);
+  }
+  
+  .hIcon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    pointer-events: initial;
+    -webkit-filter: brightness(0) invert(0);
+            filter: brightness(0) invert(0);
+  }
+  
+  .mainContainer input, .containercheck input{
+    display: none;
+  }
+  /*# sourceMappingURL=style.css.map 
+  
+  Feita por Remenuf e editada por Mizzu*/
