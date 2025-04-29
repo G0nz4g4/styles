@@ -224,7 +224,6 @@
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    flex: 1;
     gap: 10px;
     font-size: 20px;
     position: relative;
@@ -238,6 +237,8 @@
     border: double 5px #000;
     border-radius: 10px;
     padding: 10px;
+    flex: 1;
+    word-break: initial;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;    
