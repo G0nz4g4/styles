@@ -147,7 +147,7 @@
 
 #fichaAb .pagina {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #232323;
     border-end-end-radius: 8px;
     margin-top: 10px;
