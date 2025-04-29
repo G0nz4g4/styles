@@ -17,6 +17,10 @@
     text-align: justify;
   }
 
+#ficha details summary {
+    cursor: pointer;
+  }
+
   #fichaAb .bannerInicial {
     width: 650px;
     height: 280px;
@@ -211,7 +215,7 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     flex-direction: column;
-    margin: 25px 25px 25px 35px;
+    margin: 25px 35px;
     gap: 10px;
     height: 100%;
 }
@@ -219,7 +223,7 @@
 #fichaAb .conteudo .atributosDois .status {
     display: flex;
     flex-flow: row wrap;
-    width: 590px;
+    width: 100%;
     flex: 1;
     gap: 10px;
     font-size: 20px;
