@@ -362,7 +362,6 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 20px 0px 20px 0px;
-    display: flex;
     width: 590px;
     flex-direction: column;
     text-align: justify;
