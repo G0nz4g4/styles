@@ -1,353 +1,381 @@
- /* Template feito pela Ross (https://rossresources.tumblr.com/)
- Historico feito por Remenuf
- Adaptado por Mizzu*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
-
-#pirata {
-  --colorp: #f02222;
-  --bg-color: none;
-  --text-color: #525252;
-  --filtrogeral: invert(19%) sepia(70%) saturate(3650%) hue-rotate(349deg) brightness(100%) contrast(99%);
-  width: 520px;
-  padding: 5px 0px;
-  background-color: var(--bg-color);
-  border-radius: 15px;
-}
-
-#pirata .tituloMizzu {
-  color: #000; 
-  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
-  font: 900 70px/100% 'Raleway';
-  letter-spacing: -4px;
-  text-transform: uppercase;
-  text-align: center;
-  word-break: break-word;
-}
-
-#pirata .titulo {
-  color: var(--colorp); 
-  font: 900 70px/100% 'Raleway';
-  letter-spacing: -4px;
-  text-transform: uppercase;
-  text-align: center;
-  word-break: break-word;
-}
-
-#pirata .efeito {
-  height: 80px;
-  background: var(--bg-color);
-  clip-path: polygon(65% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
-  margin-top: -78px;
-}
-
-#pirata .efeitodois {
-  height: 80px;
-  background: var(--bg-color);
-  clip-path: polygon(67% 0, 100% 55%, 100% 100%, 0 100%, 0 38%);
-  margin-top: -93px;
-  opacity: 0.8;
-}
-#pirata .ppMizzu {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 100%;
-  border: 12px solid var(--bg-color);
-  position: relative;
-  z-index: 1;
-  left: -100px;
-  margin-top: -45px;
-  box-shadow: 0 0 0.4em #f02222, 0 0 0.4em #f02222;
-}
-
-#pirata .pp {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 100%;
-  border: 12px solid var(--bg-color);
-  position: relative;
-  z-index: 1;
-  left: -100px;
-  margin-top: -45px;
-}
-
-#pirata .posicao {
-  position: relative;
-  z-index: 1;
-  left: 30px;
-  margin-top: -30px;
-}
-
-#pirata .posicao .linhaMizzu {
-  width: 100px;
-  height: 8px;
-  border-radius: 5px;
-  display: inline-block;
-  background: #000; 
-  box-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
-}
-
-#pirata .posicao .linha {
-  width: 100px;
-  height: 8px;
-  border-radius: 5px;
-  display: inline-block;
-  background: var(--colorp);
-}
-
-#pirata .posicao .bolaMizzu {
-  position: relative;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background: #000; 
-  box-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
-  left: 65px;
-}
-
-#pirata .posicao .bola {
-  position: relative;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background: var(--colorp); 
-  left: 65px;
-}
-
-
-#pirata .posicao .boladois {
-  position: absolute;
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background: var(--colorp);
-  left: 335px;
-  opacity: 0.5;
-  margin-top: -8px;
-}
-
-#pirata .texto {
-  margin: 20px 40px 0px;
-  color: var(--text-color);
-  text-align: justify;
-  font: 12px/150% 'Be Vietnam Pro', sans-serif;
-  letter-spacing: .5px;
-  word-break: break-word;
-}
-
-falaimg {
-  float: left;
-  width: 70px;
-  height: 70px;
-  line-height: 50px;
-  background-image: url('/d2a3ee69f4cefa1a38c7ab6b550f69e2.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  margin: 0px 10px 0px 10px;
-}
-
-falaMizzu {
-  min-height: 70px;
-  margin: 0px 15px 0px 15px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  color: #000;
-  font-weight: bold; 
-  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
-}
-
-pensaMizzu {
-  font-style: italic;
-  color: #000;
-  text-shadow: 0 0 0.2em #f02222, 0 0 0.2em #f02222;
-}
-
-fala {
-  min-height: 70px;
-  margin: 0px 15px 0px 15px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  color: var(--colorp);
-  font-weight: bold; 
-}
-
-pensa {
-  font-style: italic;
-  color: var(--colorp);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
-
-.mainContainer {
-    width: 450px;
-    height: 50px;
-    background-color: none;
-    color: white;
-    padding: 25px;
-    margin-top: 10px;
-    position: relative;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr);
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-  }
-  
-  .mainContainer .hr {
-    width: 410px;
-    height: 2px;
-    background-color: var(--colorp);
-    position: absolute;
-    -webkit-transform: translate(45px, 90px);
-            transform: translate(45px, 90px);
-  }
-  
-  .containercheck input:checked + .mainContainer {
-    height: 470px;
-  }
-  
-  .containercheck input:checked + .mainContainer .hcontainer {
-    opacity: 100;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-    -webkit-transition-delay: 0.1s;
-            transition-delay: 0.1s;
-  }
-  
-  .hBanner {
-    width: 500px;
-    height: 100px;
-    position: absolute;
-    bottom: -2px;
-    left: -2px;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: none;
-    color: white;
-  }
-  
-  .hBanner div {
-    height: 92px;
-    width: 92px;
-    background-color: none;
-    position: absolute;
-    -webkit-clip-path: circle();
-            clip-path: circle();
-    margin: 2px;
-    -webkit-transform: scale(150%) translateX(125px) translateY(15px);
-            transform: scale(150%) translateX(125px) translateY(15px);
-    overflow: visible;
-    white-space: nowrap;
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
-  }
-  
-  .hBanner span {
-    font-family: League Gothic;
-    color: white;
-    letter-spacing: 7px;
-    font-size: 30px;
-    white-space: nowrap;
-    top: 35px;
-    left: 15px;
-  }
-  
-  .hBanner p {
-    top: 5px;
-    left: 15px;
-    font-size: 25px;
-    opacity: 85%;
-  }
-  
-  .hInfo1 {
-    display: none;
-    width: 370px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 300px;
-    position: absolute;
-    top: 105px;
-    left: 45px;
-    overflow-y: scroll;
-    font-family: Arial, Helvetica, sans-serif;
+#fichaAb {
+    --corFicha: #a8140c;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: auto;
+    width: 690px;
+    padding: 20px;
+    background-color: #232323;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 14px;
     text-align: justify;
-    font-size: 14px;
-    line-height: 25px;
   }
-  
-  .hInfo1::-webkit-scrollbar {
-    width: 2px;
+
+  #fichaAb .bannerInicial {
+    width: 650px;
+    height: 280px;
+    background-image: url(/650x280.png);
+    background-size: cover;
+    background-position: top center;
+    color: #000;
+    border-radius: 3px 3px 0px 0px;
   }
-  
-  .hInfo1::-webkit-scrollbar-track {
-    background: none;
-    border-radius: 10px;
-  }
-  
-  .hInfo1::-webkit-scrollbar-thumb {
-    background: var(--colorp);
-    border-radius: 10px;
-  }
-  
-  .hInfo1 span {
+
+  #fichaAb .barraInicial {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
     position: relative;
-    left: -20px;
-    font-size: 18px;
-    font-weight: 1000;
-    letter-spacing: 5px;
-    color: var(--colorp);
+    background-color: var(--corFicha);
+}
+
+#fichaAb .nome {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    width: 62%;
     line-height: normal;
-  }
-  
-  .hInfo1 summary {
-    color: var(--colorp);
-    font-size: 14px;
-    cursor: pointer;
-  }
-  
-  .hInfo1 details {
-    font-size: 12px;
-    line-height: normal;
-  }
-  
-  .hcontainer {
+}
+
+#fichaAb .nome p {
+    margin: auto 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#fichaAb  .avatar {
+    width: 180px;
+    height: 180px;
+    background-image: url(/180x180.png);
+    background-position: center;
+    background-size: cover;
+    border: 10px solid var(--corFicha); 
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    overflow: hidden;
+    padding: 0px;
+}
+
+#fichaAb .avatar .lvl {
+    display: flex;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
     opacity: 0;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-    pointer-events: none;
-  }
-  
-  .hcontainer input:checked ~ .hInfo1 {
-    display: block;
-    pointer-events: initial;
-  }
-  
-  .hcontainer input:checked ~ .hIcon {
-    -webkit-filter: var(--filtrogeral);
-            filter: var(--filtrogeral);
-  }
-  
-  .hIcon {
-    width: 50px;
-    height: auto;
-    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 180px;
+    height: 180px;
+}
+
+#fichaAb .avatar span {
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#fichaAb .lvl:hover {
+    opacity: 1;
+}
+
+#fichaAb .botoes {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+#fichaAb .botoess {
+    flex: 1;
+    height: 100%;
+    border: none;
+    border-radius: 0%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #131313;
+    opacity: 70%;
     cursor: pointer;
-    pointer-events: initial;
-    -webkit-filter: brightness(0) invert(0);
-            filter: brightness(0) invert(0);
-  }
-  
-  .mainContainer input, .containercheck input{
+}
+
+#fichaAb #btn1:checked ~ .botoes label[for="btn1"],
+#fichaAb #btn2:checked ~ .botoes label[for="btn2"],
+#fichaAb #btn3:checked ~ .botoes label[for="btn3"],
+#fichaAb #btn4:checked ~ .botoes label[for="btn4"] {
+  background-color: var(--corFicha);
+  color: white;
+  opacity: 100%;
+}
+
+#fichaAb #btn1:checked ~ .conteudo .pagina1,
+#fichaAb #btn2:checked ~ .conteudo .pagina2,
+#fichaAb #btn3:checked ~ .conteudo .pagina3,
+#fichaAb #btn4:checked ~ .conteudo .pagina4 {
+  display: block;
+}
+
+#fichaAb .pagina {
     display: none;
+    position: absolute;
+    background-color: #232323;
+    border-end-end-radius: 8px;
+    margin-top: 10px;
+    width: 690px;
+    left: -20px;
   }
-  /*# sourceMappingURL=style.css.map 
+
+#fichaAb .conteudo {
+    width: 100%;
+    position: relative;
+    background-color: #232323;
+    border-radius: 8px;
   
-  Feita por Remenuf e editada por Mizzu*/
+}
+
+#fichaAb .conteudo .atributos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 25px 25px 25px 35px;
+    cursor: help;
+}
+
+#fichaAb .conteudo .pontos {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: double 5px #000;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#fichaAb .conteudo .nomeAtributo {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2px;
+    border: double 5px #000;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    background-color: #151515;
+    transform: translate(0, -50%);
+}
+
+#fichaAb .conteudo .atributosDois {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 25px 25px 25px 35px;
+    gap: 10px;
+    height: 100%;
+}
+
+#fichaAb .conteudo .atributosDois .status {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#fichaAb .conteudo .atributosDois .status .statusPontos {
+    width: 100%;
+    height: 50px;
+    background-color: #151515;
+    border: double 5px #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;    
+    justify-content: space-around;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+#fichaAb .conteudo .atributosDois .status .statusPontos traco{
+    content: "";
+    width: 2px;
+    height: 100%;
+    margin: 15px;
+    border-right: solid 2.5px #000;
+    border-left: solid 2.5px #000;
+}
+
+#fichaAb .conteudo .atributosDois .statusDois {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#fichaAb .conteudo .atributosDois .statusDois .statusDoisPontos {
+    width: 100%;
+    height: 50px;
+    background-color: #151515;
+    border: double 5px #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;    
+    justify-content: space-around;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+#fichaAb .conteudo .atributosDois .statusDois .statusDoisPontos tracos{
+    content: "";
+    width: 2px;
+    height: 100%;
+    margin: 15px;
+    border-right: solid 2.5px #000;
+    border-left: solid 2.5px #000;
+}
+
+#fichaAb .conteudo .infoCombate {
+    width: 95%;
+    padding: 0px 20px 20px 25px;
+    justify-content: center;
+}
+
+#fichaAb .conteudo .armaFav {
+    width: 93%;
+    background-color: #151515;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0px 0px 3px 3px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fichaAb .conteudo .armaFav header {
+    width: 550px;
+    height: auto;
+    display: block;
+    position: static;
+    float: none;
+    background-color: var(--corFicha);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 15px 20px;
+}
+
+#fichaAb .conteudo .armaFav .armaFavo{
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+#fichaAb .conteudo .armaFav .armaFavo .imgFav {
+    width: 120px;
+    height: 120px;
+    outline: #000 double 5px;
+    border-radius: 10px;
+    background-image: url(/gomu-gomu-no-mi-devil-fruit-3d-model-c5216b7b67.jpg);
+    background-size: cover;
+}
+
+#fichaAb .conteudo .armaFav .armaFavo .textoF {
+    white-space: pre-line;
+    line-height: 32px;
+    border-left: double 5px #000;
+    padding-left: 30px;
+}
+
+#fichaAb .conteudo .armaFav .moreF {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    width: 590px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#fichaAb .conteudo .armaFav .sobreF {
+    display: flex;
+    flex-flow: row wrap;
+    width: 590px;
+    flex: 1;
+    gap: 8px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#fichaAb .conteudo .armaFav .sobreF .campoF {
+    padding: 0px 8px;
+    background-color: #191919;
+    border: solid 2px #090909;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    white-space: nowrap;
+    gap: 8px;
+    border-radius: 3px;
+    box-shadow: inset #000 0px 0px 1px;
+}
+
+#fichaAb .conteudo .armaFav .sobreF .campoF b {
+    border-right: solid 2px #090909;
+    padding: 8px 8px 8px 0px;
+}
