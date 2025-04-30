@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+#fichaAb {
+    --corFicha: #a8140c;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: auto;
+    width: 690px;
+    padding: 20px;
+    background-color: #232323;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  #fichaAb details summary {
+    cursor: pointer;
+  }
+
+  #fichaAb .bannerInicial {
+    width: 650px;
+    height: 280px;
+    background-image: url(/650x280.png);
+    background-size: cover;
+    background-position: top center;
+    color: #000;
+    border-radius: 3px 3px 0px 0px;
+  }
+
+  #fichaAb .barraInicial {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    background-color: var(--corFicha);
+}
+
+#fichaAb .nome {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    width: 62%;
+    line-height: normal;
+}
+
+#fichaAb .nome p {
+    margin: auto 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 100%;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#fichaAb  .avatar {
+    width: 180px;
+    height: 180px;
+    background-image: url(/180x180.png);
+    background-position: center;
+    background-size: cover;
+    border: 10px solid var(--corFicha); 
+    border-radius: 100%;
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    transform: translate(0%, -50%);
+    overflow: hidden;
+    padding: 0px;
+}
+
+#fichaAb .avatar .lvl {
+    display: flex;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 180px;
+    height: 180px;
+}
+
+#fichaAb .avatar span {
+    text-align: center;
+    word-break: break-word;
+    white-space: normal;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#fichaAb .lvl:hover {
+    opacity: 1;
+}
+
+#fichaAb .botoes {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+#fichaAb .botoess {
+    flex: 1;
+    height: 100%;
+    border: none;
+    border-radius: 0%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #131313;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#fichaAb #btn1:checked ~ .botoes label[for="btn1"],
+#fichaAb #btn2:checked ~ .botoes label[for="btn2"],
+#fichaAb #btn3:checked ~ .botoes label[for="btn3"],
+#fichaAb #btn4:checked ~ .botoes label[for="btn4"] {
+  background-color: var(--corFicha);
+  color: white;
+  opacity: 100%;
+}
+
+#fichaAb #btn1:checked ~ .conteudo .pagina1,
+#fichaAb #btn2:checked ~ .conteudo .pagina2,
+#fichaAb #btn3:checked ~ .conteudo .pagina3,
+#fichaAb #btn4:checked ~ .conteudo .pagina4 {
+  display: block;
+}
+
+#fichaAb .pagina {
+    display: none;
+    position: relative;
+    background-color: #232323;
+    border-end-end-radius: 8px;
+    margin-top: 10px;
+    width: 690px;
+    left: -20px;
+  }
+
+#fichaAb .conteudo {
+    width: 100%;
+    position: relative;
+    background-color: #232323;
+    border-radius: 8px;
+  
+}
+
+#fichaAb .conteudo .atributos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 25px 25px 25px 35px;
+    cursor: help;
+}
+
+#fichaAb .conteudo .pontos {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    background-color: #151515;
+    border-radius: 10px;
+    border: double 5px #000;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#fichaAb .conteudo .nomeAtributo {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 2px;
+    border: double 5px #000;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+    background-color: #151515;
+    transform: translate(0, -50%);
+}
+
+#fichaAb .conteudo .atributosDois {
+    display: flex;
+    flex-flow: row wrap;
+    width: 590px;
+    flex: 1;
+    gap: 8px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#fichaAb .conteudo .atributosDois .status {
+    display: flex;
+    flex-flow: row wrap;
+    width: 590px;
+    flex: 1;
+    gap: 10px;
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+#fichaAb .conteudo .atributosDois .status .statusPontos {
+    background-color: #151515;
+    border: double 5px #000;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;    
+    justify-content: space-around;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+#fichaAb .conteudo .atributosDois .status .statusPontos traco{
+    content: "";
+    width: 2px;
+    height: 100%;
+    margin: 15px;
+    border-right: solid 2.5px #000;
+    border-left: solid 2.5px #000;
+}
+
+
+#fichaAb .conteudo .infoCombate {
+    width: 95%;
+    padding: 0px 20px 20px 25px;
+    justify-content: center;
+}
+
+#fichaAb .conteudo .armaFav {
+    width: 93%;
+    background-color: #151515;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 0px 0px 3px 3px;
+    overflow: hidden;
+    align-items: start;
+    flex-direction: column;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+#fichaAb .conteudo .armaFav h1 {
+    width: 550px;
+    height: auto;
+    display: block;
+    position: static;
+    float: none;
+    background-color: var(--corFicha);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 21px;
+    padding: 15px 20px;
+}
+
+#fichaAb .conteudo .armaFav .armaFavo{
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+/*
+#fichaAb .conteudo .armaFav .armaFavo .imgFav {
+    width: 120px;
+    height: 120px;
+    outline: #000 double 5px;
+    border-radius: 10px;
+    background-image: url(/gomu-gomu-no-mi-devil-fruit-3d-model-c5216b7b67.jpg);
+    background-size: cover;
+}
+
+#fichaAb .conteudo .armaFav .armaFavo .textoF {
+    white-space: pre-line;
+    line-height: 32px;
+    border-left: double 5px #000;
+    padding-left: 30px;
+}
+
+#fichaAb .conteudo .armaFav .moreF {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    width: 590px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#fichaAb .conteudo .armaFav .sobreF {
+    display: flex;
+    flex-flow: row wrap;
+    width: 590px;
+    flex: 1;
+    gap: 8px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#fichaAb .conteudo .armaFav .sobreF .campoF {
+    padding: 0px 8px;
+    background-color: #191919;
+    border: solid 2px #090909;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    white-space: nowrap;
+    gap: 8px;
+    border-radius: 3px;
+    box-shadow: inset #000 0px 0px 1px;
+}
+
+#fichaAb .conteudo .armaFav .sobreF .campoF b {
+    border-right: solid 2px #090909;
+    padding: 8px 8px 8px 0px;
+}
