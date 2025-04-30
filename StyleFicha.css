@@ -15,6 +15,7 @@
     color: #fff;
     font-size: 14px;
     text-align: justify;
+    line-height: 0;
   }
 
   #fichaAb details summary {
@@ -71,7 +72,7 @@
     position: absolute;
     top: 0%;
     right: 10%;
-    transform: translate(0%, -50%);
+    transform: translate(25%, -50%);
     overflow: hidden;
     padding: 0px;
 }
@@ -264,13 +265,14 @@
     width: 93%;
     background-color: #151515;
     margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 27px;
     border-radius: 0px 0px 3px 3px;
     overflow: hidden;
     align-items: start;
     flex-direction: column;
     text-align: justify;
     white-space: pre-line;
+    line-height: 1.4;
 }
 
 #fichaAb .conteudo .armaFav titulo {
