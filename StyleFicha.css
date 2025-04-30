@@ -16,13 +16,30 @@
     font-size: 14px;
     text-align: justify;
     line-height: 0;
-  }
+}
 
-  #fichaAb details summary {
+#fichaAb a {
+    color: var(--corFicha);
+}
+
+#fichaAb a:visited {
+    color: var(--corFicha);
+    opacity: 0.5;
+}
+
+#fichaAb b {
+    color: var(--corFicha);
+}
+
+#fichaAb strong {
+    color: var(--corFicha);
+}
+
+#fichaAb details summary {
     cursor: pointer;
-  }
+}
 
-  #fichaAb .bannerInicial {
+#fichaAb .bannerInicial {
     width: 650px;
     height: 280px;
     background-image: url(/650x280.png);
@@ -30,9 +47,9 @@
     background-position: top center;
     color: #000;
     border-radius: 3px 3px 0px 0px;
-  }
+}
 
-  #fichaAb .barraInicial {
+#fichaAb .barraInicial {
     width: 100%;
     height: 100px;
     display: flex;
