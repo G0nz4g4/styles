@@ -30,6 +30,10 @@
     color: var(--corFicha);
 }
 
+#fichaAb strong {
+    color: var(--corFicha);
+}
+
 #fichaAb details {
     cursor: pointer;
 }
