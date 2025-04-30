@@ -105,6 +105,7 @@
     width: 180px;
     height: 180px;
     line-height: 1;
+    transform: translate(-5%, -5%);
 }
 
 #fichaAb .avatar span {
