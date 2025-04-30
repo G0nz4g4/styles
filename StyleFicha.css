@@ -273,7 +273,7 @@
     white-space: pre-line;
 }
 
-#fichaAb .conteudo .armaFav h1 {
+#fichaAb .conteudo .armaFav titulo {
     width: 550px;
     height: auto;
     display: block;
