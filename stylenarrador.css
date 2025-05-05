@@ -49,8 +49,8 @@
   opacity: 0.8;
 }
 #pirata .ppMizzu {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 100%;
   border: 12px solid var(--bg-color);
