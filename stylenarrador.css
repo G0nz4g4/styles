@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 #pirata {
-  --colorp: #00008B;
+  --colorp: #FF6347;
   --bg-color: none;
   --text-color: #525252;
   width: 520px;
@@ -17,7 +17,7 @@
 
 #pirata .tituloMizzu {
   color: #000; 
-  text-shadow: 0 0 0.2em #00008B, 0 0 0.2em #00008B;
+  text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   font: 900 70px/100% 'Raleway';
   letter-spacing: -4px;
   text-transform: uppercase;
@@ -58,7 +58,7 @@
   z-index: 1;
   left: -100px;
   margin-top: -45px;
-  box-shadow: 0 0 0.4em #00008B, 0 0 0.4em #00008B;
+  box-shadow: 0 0 0.4em var(--colorp), 0 0 0.4em var(--colorp);
 }
 
 #pirata .pp {
@@ -86,7 +86,7 @@
   border-radius: 5px;
   display: inline-block;
   background: #000; 
-  box-shadow: 0 0 0.2em #00008B, 0 0 0.2em #00008B;
+  box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
 }
 
 #pirata .posicao .linha {
@@ -103,7 +103,7 @@
   height: 8px;
   border-radius: 100%;
   background: #000; 
-  box-shadow: 0 0 0.2em #00008B, 0 0 0.2em #00008B;
+  box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   left: 65px;
 }
 
@@ -130,7 +130,6 @@
 
 #pirata .texto {
   margin: 20px 40px 0px;
-  color: var(--text-color);
   text-align: justify;
   font: 12px/150% 'Be Vietnam Pro', sans-serif;
   letter-spacing: .5px;
@@ -155,14 +154,13 @@ falaMizzu {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: #000;
-  text-shadow: 0 0 0.2em #00008B, 0 0 0.2em #00008B;
+  color: var(--colorp);
+  font-weight: bold;
 }
 
 pensaMizzu {
   font-style: italic;
-  color: #000;
-  text-shadow: 0 0 0.2em #00008B, 0 0 0.2em #00008B;
+  color: var(--colorp);
 }
 
 fala {
