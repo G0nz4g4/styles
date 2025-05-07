@@ -315,7 +315,7 @@
     margin-top: 20px;
     display: flex;
 }
-/*
+
 #fichaAb .conteudo .armaFav .armaFavo .imgFav {
     width: 120px;
     height: 120px;
@@ -325,6 +325,7 @@
     background-size: cover;
 }
 
+/*
 #fichaAb .conteudo .armaFav .armaFavo .textoF {
     white-space: pre-line;
     line-height: 32px;
