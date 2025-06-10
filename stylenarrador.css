@@ -154,13 +154,15 @@ falaMizzu {
   display: flex;
   justify-content: left;
   align-items: center;
-  color: var(--colorp);
+  color: #000; 
+  text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   font-weight: bold;
 }
 
 pensaMizzu {
   font-style: italic;
-  color: var(--colorp);
+  color: #000; 
+  text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
 }
 
 fala {
