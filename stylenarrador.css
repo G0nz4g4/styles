@@ -158,7 +158,8 @@ falaMizzuu {
   text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   font-weight: bold;
 }
-falaMizzuu {
+
+falaMizzu {
   color: #000; 
   text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   font-weight: bold;
@@ -249,5 +250,6 @@ fa {
     }
 
 /*# sourceMappingURL=style.css.map 
+
 
 
