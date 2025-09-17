@@ -204,7 +204,7 @@ fa {
     .progress-container2 {
       width: 230px;
       height: 11px;
-      background: #CD5C5C; 
+      background: #A52A2A; 
       box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
       border-radius: 10px;
       overflow: hidden; /* Ensures inner bar stays within bounds */
@@ -249,4 +249,5 @@ fa {
     }
 
 /*# sourceMappingURL=style.css.map 
+
 
