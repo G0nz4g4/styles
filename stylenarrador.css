@@ -148,7 +148,7 @@ falaimg {
   margin: 0px 10px 0px 10px;
 }
 
-falaMizzu {
+falaMizzuu {
   min-height: 70px;
   margin: 0px 15px 0px 15px;
   display: flex;
@@ -158,6 +158,12 @@ falaMizzu {
   text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
   font-weight: bold;
 }
+falaMizzuu {
+  color: #000; 
+  text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
+  font-weight: bold;
+}
+
 
 pensaMizzu {
   font-style: italic;
@@ -184,4 +190,63 @@ fa {
   color: var(--colorp);
 }
 
+    .progress-container3 {
+      width: 230px;
+      height: 11px;
+      background: #FFB6C1; 
+      box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
+      border-radius: 10px;
+      overflow: hidden; /* Ensures inner bar stays within bounds */
+      margin-top: 7px;
+      margin-left: 3px;
+      
+    }
+    .progress-container2 {
+      width: 230px;
+      height: 11px;
+      background: #CD5C5C; 
+      box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
+      border-radius: 10px;
+      overflow: hidden; /* Ensures inner bar stays within bounds */
+      margin-top: 7px;
+      margin-left: 3px;
+    }
+    .progress-container1 {
+      width: 230px;
+      height: 11px;
+      background: #A52A2A; 
+      box-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
+      border-radius: 10px;
+      overflow: hidden; /* Ensures inner bar stays within bounds */
+      margin-top: 7px;
+      margin-left: 6px;
+    }
+        .progress-bar {
+      height: 100%; /* Fills the container height */
+      background-color: #000; /* Example color */
+      border-radius: 10px;
+      transition: width 0.5s ease-in-out; /* Smooth animation for width changes */
+      color: #A52A2A;
+      text-align: center; /* Center text inside the bar */
+      font: 8px / 150% 'Be Vietnam Pro', sans-serif;
+    }
+
+    .cima-bar {
+        text-align: justify;
+        position: relative;
+        left: 220px;
+        top: -65px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-bar {
+        font: 8px / 150% 'Be Vietnam Pro', sans-serif;
+        display: flex;
+        align-items: baseline;
+        color: #000; 
+        text-shadow: 0 0 0.2em var(--colorp), 0 0 0.2em var(--colorp);
+        font-weight: bold;
+    }
+
 /*# sourceMappingURL=style.css.map 
+
